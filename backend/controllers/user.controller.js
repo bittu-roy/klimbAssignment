@@ -53,7 +53,6 @@ const importUser = async (req, res) => {
                     postalAddress: row["Postal Address"],
                     currentEmployer: row["Current Employer"],
                     currentDesignation: row["Current Designation"],
-                    // Add other fields from Excel here
                 });
                 await user.save();
                 console.log(`Added candidate: ${row["Name of the Candidate"]}`);

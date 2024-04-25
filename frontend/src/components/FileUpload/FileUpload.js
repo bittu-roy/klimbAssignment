@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { MdCloudUpload } from 'react-icons/md';
-import './FileUpload.css'; // Adjust the path according to your file structure
+import './FileUpload.css'; 
 
 function FileUpload() {
   const [file, setFile] = useState(null);
